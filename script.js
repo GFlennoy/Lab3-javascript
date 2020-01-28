@@ -8,7 +8,7 @@ lifeEvents = [
   "I went to Michigan State University",
   "I drive a Jeep"
 ];
-if (detroitGC === true) {
+if (detroitGC) {
   console.log(
     `My name is ${name} and I am a student at Grand Circus in Detroit, Michigan. I am currently ${age} years old and my birthday is on ${birthday}.`
   );
